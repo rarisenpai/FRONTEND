@@ -1,0 +1,101 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	font-family: 'Poppins', sans-serif;
+}
+
+h1,h2,h3,a,p{
+	color: #333;
+}
+
+a{
+	text-decoration: none;
+}
+
+h1{
+	font-size: 2.5rem;
+}
+
+h2{
+	font-size: 2rem;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-weight: 600;
+}
+
+h3{
+	font-weight: 600;
+}
+
+p{
+	font-weight: 300;
+}
+
+/*header*/
+nav{
+	height: 100px;
+}
+
+nav h2{
+	float: left;
+	display: inline;
+	line-height: 100px;
+}
+
+nav  ul{
+	float: right;
+	line-height: 100px;
+}
+
+nav ul li{
+	display: inline-block;
+	margin: 0px 25px;
+}
+
+nav ul li a{
+	text-transform: uppercase;
+	border:1px solid;
+	border-radius: 20px;
+	padding: 7px 25px;
+	background-color: #eb7620;
+	color: #fff;
+}
+
+nav ul li a:hover {
+	background-color: #000;
+}
+
+/*showcase*/
+
+.showcase h3{
+	text-align: center;
+	margin-top: 10px;
+	margin-bottom: 30px;
+}
+
+.col{
+	flex-basis: 30%;
+	min-width: 250px;
+	margin-left: 70px;
+}
+
+.hr{
+	margin-top: 70px;
+
+}
+
+p{
+	text-align: center;
+}
+
+h3{
+	text-align: center;
+}
+
+.Featured img{
+	margin-left:450px;
+}
